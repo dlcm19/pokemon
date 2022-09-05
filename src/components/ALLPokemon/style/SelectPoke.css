@@ -1,0 +1,12 @@
+.container__SelectPoke{
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+/* @media (max-width: 414px){
+
+    .container__SelectPoke{
+        display: flex;
+        
+    } 
+} */

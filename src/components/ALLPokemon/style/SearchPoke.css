@@ -1,0 +1,22 @@
+.input__SearchPoke{
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    
+}
+.bnt__SearchPoke{
+    color: rgb(238, 204, 204);
+    border-radius: 3px;
+}
+@media (max-width: 414px) {
+   .container__form__SearchPoke{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   }
+   .bnt__SearchPoke{
+     width: 100%;
+   }
+}

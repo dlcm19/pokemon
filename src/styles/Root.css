@@ -1,0 +1,61 @@
+body{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1,p{
+    margin: 0%;
+}
+.container__root{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(60%, 100%, 60%), rgba(40%, 20%, 60%, 50%));
+    color: #020024  
+}
+.entrenado{
+    width: 70px;
+}
+
+.logo{
+    width: 150px;
+}
+form{
+    display: flex;
+    gap: 5px;
+}
+.input__root{
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background: linear-gradient(90deg, rgb(20%, 40%, 60%), rgb(60%, 20%, 40%)); 
+    color: linear-gradient(90deg, rgb(20%, 40%, 60%), rgb(60%, 20%, 40%));
+}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer; 
+    transition: 0.3s;
+    background: linear-gradient(90deg, rgb(20%, 40%, 60%), rgb(60%, 20%, 40%));
+    font-size: larger;
+    color: rgb(238, 204, 204);
+}
+button:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+}
+button:active{
+    transform: scale(0.9);
+}
+.bnt{
+    padding:  10px 10px;
+    border-radius: 3px;
+    
+}
+.root__p{
+    font-size:larger;
+}
